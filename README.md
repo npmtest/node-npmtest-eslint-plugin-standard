@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-eslint-plugin-standard/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-eslint-plugin-standard/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-eslint-plugin-standard/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-eslint-plugin-standard/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eslint-plugin-standard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eslint-plugin-standard/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-eslint-plugin-standard/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-eslint-plugin-standard/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-eslint-plugin-standard/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-eslint-plugin-standard/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-eslint-plugin-standard/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-eslint-plugin-standard/build/coverage.html/index.html)
 
@@ -35,19 +35,25 @@
 ```json
 
 {
-    "name": "eslint-plugin-standard",
-    "description": "ESlint Plugin for the Standard Linter",
-    "version": "3.0.1",
-    "author": "Jamund Ferguson <jamund@gmail.com>",
+    "author": {
+        "name": "Jamund Ferguson"
+    },
     "bugs": {
         "url": "https://github.com/xjamundx/eslint-plugin-standard/issues"
     },
     "dependencies": {},
+    "description": "ESlint Plugin for the Standard Linter",
     "devDependencies": {
         "eslint": "^3.19.0",
         "mocha": "^3.2.0",
         "standard": "*"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "34d0c915b45edc6f010393c7eef3823b08565cf2",
+        "tarball": "https://registry.npmjs.org/eslint-plugin-standard/-/eslint-plugin-standard-3.0.1.tgz"
+    },
+    "gitHead": "67f065624a67ac2265159bed91d0471448b00c88",
     "homepage": "https://github.com/xjamundx/eslint-plugin-standard#readme",
     "keywords": [
         "eslint",
@@ -55,6 +61,19 @@
     ],
     "license": "MIT",
     "main": "index.js",
+    "maintainers": [
+        {
+            "name": "xjamundx"
+        },
+        {
+            "name": "feross"
+        }
+    ],
+    "name": "eslint-plugin-standard",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "eslint": ">=3.19.0"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/xjamundx/eslint-plugin-standard.git"
@@ -62,9 +81,8 @@
     "scripts": {
         "test": "standard && mocha tests/"
     },
-    "peerDependencies": {
-        "eslint": ">=3.19.0"
-    }
+    "version": "3.0.1",
+    "bin": {}
 }
 ```
 
